@@ -13,7 +13,7 @@ signInWithPopup(auth, provider)
     // The signed-in user info.
       const user = result.user;
     console.log(user)
-    router.push("/home")
+    router.push("/profile")
     // ...
   })
   .catch((error) => {

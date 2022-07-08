@@ -67,6 +67,16 @@ function Nav(props) {
               </div>
               <div>
                 <Link
+                  href="/profile"
+                  ref={menuref}
+                  passhref
+                  className={styles.navlink}
+                >
+                  <p className={styles.navlinkname}>PROFILE</p>
+                </Link>
+              </div>
+              <div>
+                <Link
                   href="/login"
                   ref={menuref}
                   passhref
